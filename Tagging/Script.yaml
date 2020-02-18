@@ -1,0 +1,1751 @@
+Tags:
+    - Managed
+    - Chargeable 
+clients: 
+    Athletics: 
+        Owning: 'Athletics' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Name: 'GRV-NVR'
+        Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
+        Power State: poweredOn
+        CPU: 2
+        RAM(MB): 4096
+        Fast Disk(GB): 60.00
+        Capacity: 0.00
+        VM Cost: $302.00
+        Managed Cost: $0.00
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'YIA031' 
+    BafIT:
+        Owning: 'BAFF' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Name: 'BusAffOpns'
+        Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
+        Power State: poweredOn
+        CPU: 1
+        RAM(MB): 2048
+        Fast Disk(GB): 60.00
+        Capacity: 0.00
+        VM Cost: $302.00
+        Managed Cost: $0.00
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'QBA079'
+    CSS:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+            - Index: 'FA6990'
+              Name: 'agrobase'
+              Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 2
+              RAM(MB): 4096
+              Fast Disk (GB): 100
+              Capacity: 0.00
+              VM Cost: $362.00
+              Managed Cost: $0.00
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+    ecampus:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+    EPM:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+    EPM:
+        
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+            - Index: 'FA6990'
+              Name: 'agrobase'
+              Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 2
+              RAM(MB): 4096
+              Fast Disk (GB): 100
+              Capacity: 0.00
+              VM Cost: $362.00
+              Managed Cost: $0.00
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+    Grad School:
+        Owning: 'Athletics' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Name: 'GRV-NVR'
+        Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
+        Power State: poweredOn
+        CPU: 2
+        RAM(MB): 4096
+        Fast Disk(GB): 60.00
+        Capacity: 0.00
+        VM Cost: $302.00
+        Managed Cost: $0.00
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'YIA031'
+    MCS:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+            - Index: 'FA6990'
+              Name: 'agrobase'
+              Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 2
+              RAM(MB): 4096
+              Fast Disk (GB): 100
+              Capacity: 0.00
+              VM Cost: $362.00
+              Managed Cost: $0.00
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+    MU:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+            - Index: 'FA6990'
+              Name: 'agrobase'
+              Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 2
+              RAM(MB): 4096
+              Fast Disk (GB): 100
+              Capacity: 0.00
+              VM Cost: $362.00
+              Managed Cost: $0.00
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+    NWS:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+    NWS:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+    NWS:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+    SIG:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+    Telecom:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+            - Index: 'FA6990'
+              Name: 'agrobase'
+              Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 2
+              RAM(MB): 4096
+              Fast Disk (GB): 100
+              Capacity: 0.00
+              VM Cost: $362.00
+              Managed Cost: $0.00
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+            - Index: 'FA6990'
+              Name: 'agrobase'
+              Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 2
+              RAM(MB): 4096
+              Fast Disk (GB): 100
+              Capacity: 0.00
+              VM Cost: $362.00
+              Managed Cost: $0.00
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+    TSS:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+    TSS:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+    TSS:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+    TSS:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:  
+    UHDS:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+    USSE:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+    VLIB:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+            - Index: 'FA6990'
+              Name: 'agrobase'
+              Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 2
+              RAM(MB): 4096
+              Fast Disk (GB): 100
+              Capacity: 0.00
+              VM Cost: $362.00
+              Managed Cost: $0.00
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+            - Index: 'FA6990'
+              Name: 'agrobase'
+              Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 2
+              RAM(MB): 4096
+              Fast Disk (GB): 100
+              Capacity: 0.00
+              VM Cost: $362.00
+              Managed Cost: $0.00
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+            - Index: 'FA6990'
+              Name: 'agrobase'
+              Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 2
+              RAM(MB): 4096
+              Fast Disk (GB): 100
+              Capacity: 0.00
+              VM Cost: $362.00
+              Managed Cost: $0.00
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+            - Index: 'FA6990'
+              Name: 'agrobase'
+              Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 2
+              RAM(MB): 4096
+              Fast Disk (GB): 100
+              Capacity: 0.00
+              VM Cost: $362.00
+              Managed Cost: $0.00
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+            - Index: 'FA6990'
+              Name: 'agrobase'
+              Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 2
+              RAM(MB): 4096
+              Fast Disk (GB): 100
+              Capacity: 0.00
+              VM Cost: $362.00
+              Managed Cost: $0.00
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+            - Index: 'FA6990'
+              Name: 'agrobase'
+              Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 2
+              RAM(MB): 4096
+              Fast Disk (GB): 100
+              Capacity: 0.00
+              VM Cost: $362.00
+              Managed Cost: $0.00
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+            - Index: 'FA6990'
+              Name: 'agrobase'
+              Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 2
+              RAM(MB): 4096
+              Fast Disk (GB): 100
+              Capacity: 0.00
+              VM Cost: $362.00
+              Managed Cost: $0.00
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+            - Index: 'FA6990'
+              Name: 'agrobase'
+              Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 2
+              RAM(MB): 4096
+              Fast Disk (GB): 100
+              Capacity: 0.00
+              VM Cost: $362.00
+              Managed Cost: $0.00
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+    NWS:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+            - Index: 'FA6990'
+              Name: 'agrobase'
+              Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 2
+              RAM(MB): 4096
+              Fast Disk (GB): 100
+              Capacity: 0.00
+              VM Cost: $362.00
+              Managed Cost: $0.00
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+    NWS:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
+            - Index: 'AGD001-AITG'
+              Name: 'agro7'
+              Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 40.00
+              Capacity: 0
+              VM Cost: $684.00
+              Managed Cost: $0.00
+    NWS:
+        Owning: 'Crop&Soil' 
+        Managed: False
+        Chargeable: True
+        Billing:
+        Folders:
+            - Folder1:
+            - Folder2:    
+        Indexes: 
+            - Index: 'AGD001-AITG'
+              Name:
+              Guest OS:
+              Power State:
+              CPU:
+              RAM(MB):
+              Fast Disk (GB):
+              Capacity: 
+              VM Cost: 
+              Managed Cost:
+            - Index: 'ACS532-ANOL'
+              Name: 'agro10.css.orst.edu'
+              Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
+              Power State: 'poweredOn'
+              CPU: 4
+              RAM(MB): 16384
+              Fast Disk (GB): 250.00
+              Capacity: 2048.00
+              VM Cost: $1183.32
+              Managed Cost: $0
