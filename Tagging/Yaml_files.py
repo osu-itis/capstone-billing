@@ -14,7 +14,8 @@ def yaml_dump(filepath, data):
 if __name__ == "__main__":
 	filepath = "test.yaml"
 	data = yaml_loader(filepath)
-	print (data)
+	sort_file = yaml.dump(data, \n,  sort_keys=True)
+	print(sort_file)
 
 	items = data.get('clients')
 	for item_name, item_value in items.items():
