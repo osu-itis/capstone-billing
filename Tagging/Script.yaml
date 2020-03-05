@@ -1,2662 +1,505 @@
-clients: 
+clients:
     Athletics:
-            Tags:
-            - Managed
-            - Chargeable
-            Indexes: 
-                - Index: 'YIA031' 
-                  Owning: 'Athletics' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'GRV-NVR'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $302.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:     
+      Production VMs:
+        - Index: 'YIA031'
+          Managed: False
+          Chargeable: True
     BafIT:
-            Tags:
-            - Managed
-            - Chargeable
-            Indexes: 
-                - Index: 'QBA079'
-                  Owning: 'BAFF' 
-                  Managed: False
-                  Chargeable: True
-                  Billing:
-                  Name: 'BusAffOpns'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 2048
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $302.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:    
+      Development VMs:
+      Production VMs:
+        - Index: 'QBA079'
+          Managed: False
+          Chargeable: True
     CSS:
-            Tags:
-            - Managed
-            - Chargeable
-            Indexes: 
-                - Index: 'AGD001-AITG'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'Acquia'
-                  Guest OS: 'Ubuntu Linux (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 4096
-                  Fast Disk(GB): 0.00
-                  Capacity: 200.00
-                  VM Cost: $168.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:
-                - Index: 'ACS532-ANOL'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly' 
-                  Name: 'agro10.css.orst.edu'
-                  Guest OS: 'Microsoft Windows Server 2008 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 16384
-                  Fast Disk(GB): 250.00
-                  Capacity: 2048.00
-                  VM Cost: $1183.32
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:
-                - Index: 'AGD001-AITG'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'agro7'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 16384
-                  Fast Disk (GB): 40.00
-                  Capacity: 0
-                  VM Cost: $684.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:
-                - Index: 'FA6990'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'agrobase'
-                  Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk (GB): 100.00
-                  Capacity: 0.00
-                  VM Cost: $362.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:
-                - Index: 'AGD001-AITG'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'cas-banner'
-                  Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 4096
-                  Fast Disk(GB): 0.00
-                  Capacity: 40.00
-                  VM Cost: $177.60
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2: 
-                - Index: 'AGD001-AITG'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'cas-dc01'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 16384
-                  Fast Disk(GB): 100.00
-                  Capacity: 0.00
-                  VM Cost: $774.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:
-                - Index: 'AGD001-AITG'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'cas-devman'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 40.00
-                  Capacity: 0.00
-                  VM Cost: $272.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:
-                - Index: 'AGD001-AITG'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'Cas-term'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 16384
-                  Fast Disk(GB): 200.00
-                  Capacity: 0.00
-                  VM Cost: $924.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:
-                - Index: 'AGD001-AITG'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'cas-term-III'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 10240
-                  Fast Disk(GB): 200.00
-                  Capacity: 0.00
-                  VM Cost: $680.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:
-                - Index: 'AGD001-AITG'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'CAS-Web'
-                  Guest OS: 'Ubuntu Linux (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 12288
-                  Fast Disk(GB): 50.00
-                  Capacity: 500.00
-                  VM Cost: $608.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:    
-                - Index: 'AGD001-AITG'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'Cas-web1'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 1024
-                  Fast Disk(GB): 0.00
-                  Capacity: 100.00
-                  VM Cost: $113.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:
-                - Index: 'AGD001-AITG'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'Nagios'
-                  Guest OS: 'Red Hat Enterprise Linux 5 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 2048
-                  Fast Disk(GB): 50.00
-                  Capacity: 0.00
-                  VM Cost: $169.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:
-                - Index: 'AGD001-AITG'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'oscsmsql'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 16384
-                  Fast Disk(GB): 120.00
-                  Capacity: 0.00
-                  VM Cost: $804.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:
-                - Index: 'AGD001-AITG'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'OSCSsql1'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $302.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:
-                - Index: 'AGD001-AITG'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'OSCSWEB'
-                  Guest OS: 'CentOS 6 (64 bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 3072
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $250.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:
-                - Index: 'AGD001-AITG'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'Rootprint'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 16384
-                  Fast Disk(GB): 40.00
-                  Capacity: 0.00
-                  VM Cost: $608.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:
-                - Index: 'AGD001-AITG'
-                  Owning: 'Crop&Soil' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'roots-cups'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 2048
-                  Fast Disk(GB): 30.00
-                  Capacity: 0.00
-                  VM Cost: $177.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1:
-                    - Folder2:            
-    ecampus:
-            Tags:
-            - Managed
-            - Chargeable
-            Indexes: 
-                - Index: 'XEC110'
-                  Owning: 'Ecampus' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'ecampus.library.unmanaged'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 8192
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $466.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'Managed Servers'
-                    - Folder2:
-                - Index: 'XEC110'
-                  Owning: 'Ecampus' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'ecampus.library2.unmanaged'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $278.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'Managed Servers'
-                    - Folder2:
+      Development VMs:
+        - Index: 'AGD001-AITG'
+          Managed: False
+          Chargeable: True
+      Production VMs:
+        Citrix:
+          Spawned Desktops:
+          Spawned Servers:
+        oscs:
+            - Index: 'AGD001-AITG'
+              Managed: False
+              Chargeable: True
+            - Index: 'ACS532-ANOL'
+              Managed: False
+              Chargeable: True
+            - Index: 'AGD001-AITG'
+              Managed: False
+              Chargeable: True
+            - Index: 'FA6990'
+              Managed: False
+              Chargeable: True
+            - Index: 'AGD001-AITG'
+              Managed: False
+              Chargeable: True
+            - Index: 'AGD001-AITG'
+              Managed: False
+              Chargeable: True
+            - Index: 'AGD001-AITG'
+              Managed: False
+              Chargeable: True
+            - Index: 'AGD001-AITG'
+              Managed: False
+              Chargeable: True
+            - Index: 'AGD001-AITG'
+              Managed: False
+              Chargeable: True
+            - Index: 'AGD001-AITG'
+              Managed: False
+              Chargeable: True
+            - Index: 'AGD001-AITG'
+              Managed: False
+              Chargeable: True
+            - Index: 'AGD001-AITG'
+              Managed: False
+              Chargeable: True
+            - Index: 'AGD001-AITG'
+              Managed: False
+              Chargeable: True
+            - Index: 'AGD001-AITG'
+              Managed: False
+              Chargeable: True
+            - Index: 'AGD001-AITG'
+              Managed: False
+              Chargeable: True
+            - Index: 'AGD001-AITG'
+              Managed: False
+              Chargeable: True
+            - Index: 'AGD001-AITG'
+              Managed: False
+              Chargeable: True
     EPM:
-            Tags:
-            - Managed
-            - Chargeable
-            Indexes: 
-                - Index: 'JIS024'
-                  Owning: 'BeaverPrint'
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'BeaverPrintQ1.tss'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 4096
-                  Fast Disk(GB): 100.00
-                  Capacity: 0.00
-                  VM Cost: $324.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS111'
-                  Owning: 'ClientSvcs'
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'ISCS-PrintQ'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $302.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2: 
-                - Index: 'JIS111'
-                  Owning: 'ClientSvcs'
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'OSU-AGPM'
-                  Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 4096
-                  Fast Disk(GB): 80.00
-                  Capacity: 0.00
-                  VM Cost: $294.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS111'
-                  Owning: 'ClientSvcs'
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'OSU-CM-DP01'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 40.00
-                  Capacity: 300.00
-                  VM Cost: $299.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS111'
-                  Owning: 'ClientSvcs'
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'OSU-CM-DP01'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 40.00
-                  Capacity: 300.00
-                  VM Cost: $299.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS111'
-                  Owning: 'ClientSvcs'
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'OSU-CM-IIS01'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 40.00
-                  Capacity: 0.00
-                  VM Cost: $272.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS111'
-                  Owning: 'ClientSvcs'
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'OSU-CM-PS'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 80.00
-                  Capacity: 300.00
-                  VM Cost: $359.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS111'
-                  Owning: 'ClientSvcs'
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'OSU-CM-SQL'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 14336
-                  Fast Disk(GB): 300.00
-                  Capacity: 0.00
-                  VM Cost: $942.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS024'
-                  Owning: 'BeaverPrint'
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'osu-papercut.tss'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 200.00
-                  Capacity: 0.00
-                  VM Cost: $512.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS111'
-                  Owning: 'ClientSvcs'
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'OSU-Screen'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $302.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS024'
-                  Owning: 'BeaverPrint'
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'papercut-clone'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 200.00
-                  Capacity: 0.00
-                  VM Cost: $512.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
+      - Development VMs:
+      - Production VMs:
+        - Spawned Desktops:
+        - Spawned Servers:
+        - Index: 'JIS024'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS111'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS111'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS111'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS111'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS111'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS111'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS111'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS024'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS111'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS024'
+          Managed: False
+          Chargeable: True
     Grad School:
-            Tags:
-            - Managed
-            - Chargeable
-            Indexes: 
-                - Index: 'GRD008'
-                  Owning: 'Grad School' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'castoridae'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 3072
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $236.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
+      - Production VMs:
+        - Index: 'GRD008'
+          Managed: False
+          Chargeable: True
     MCS:
-            Tags:
-            - Managed
-            - Chargeable
-            Indexes: 
-                - Index: 'JIS185'
-                  Owning: 'ClientSvcs' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'Acano-Server'
-                  Guest OS: 'Other (32-bit)'
-                  Power State: poweredOn
-                  CPU: 8
-                  RAM(MB): 16384
-                  Fast Disk(GB): 100.00
-                  Capacity: 0.00
-                  VM Cost: $902.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS185'
-                  Owning: 'ClientSvcs' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'DIRTMS'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 8192
-                  Fast Disk(GB): 180.00
-                  Capacity: 0.00
-                  VM Cost: $670.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS185'
-                  Owning: 'ClientSvcs' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly' 
-                  Name: 'MCS-Renovo-vm1'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 8192
-                  Fast Disk(GB): 160.00
-                  Capacity: 0.00
-                  VM Cost: $640.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS185'
-                  Owning: 'ClientSvcs' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'MCS-Schedule'
-                  Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 3072
-                  Fast Disk(GB): 40.00
-                  Capacity: 0.00
-                  VM Cost: $206.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS185'
-                  Owning: 'ClientSvcs' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'TMS'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 8192
-                  Fast Disk(GB): 200.00
-                  Capacity: 0.00
-                  VM Cost: $700.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-    MU: 
-            Tags:
-            - Managed
-            - Chargeable
-            Indexes: 
-                - Index: 'MRS175'
-                  Owning: 'UHDS-MU' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'DRS_VM_RMWtrac'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 8192
-                  Fast Disk(GB): 140.00
-                  Capacity: 0.00
-                  VM Cost: $534.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'MRS175'
-                  Owning: 'UHDS-MU' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'DRS_VM_VelTTWT'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOff
-                  CPU: 4
-                  RAM(MB): 8192
-                  Fast Disk(GB): 140.00
-                  Capacity: 0.00
-                  VM Cost: $610.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'MRS175'
-                  Owning: 'UHDS-MU' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'DRS-Aux'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 4096
-                  Fast Disk(GB): 80.00
-                  Capacity: 0.00
-                  VM Cost: $294.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'MUNBLD'
-                  Owning: 'UHDS-MU' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'MU-EMS'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 12288
-                  Fast Disk(GB): 200.00
-                  Capacity: 0.00
-                  VM Cost: $812.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'MRS175'
-                  Owning: 'UHDS-MU' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'MU-MC_EMS'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 16384
-                  Fast Disk(GB): 60.00
-                  Capacity: 100.00
-                  VM Cost: $609.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'MUNTEC'
-                  Owning: 'UHDS-MU' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'musec-nvr1'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 8192
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $490.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'MRS175'
-                  Owning: 'UHDS-MU' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: 'Quarterly'
-                  Name: 'OMN-SmartPub'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 8192
-                  Fast Disk(GB): 90.00
-                  Capacity: 0.00
-                  VM Cost: $535.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
+      - Development VMs:
+      - Production VMs:
+        - Index: 'JIS185'
+          Managed: False
+          Chargeable: True
+    MU:
+      - Production VMs:
+        - Index: 'MRS175'
+          Managed: False
+          Chargeable: True
+        - Index: 'MRS175'
+          Managed: False
+          Chargeable: True
+        - Index: 'MUNBLD'
+          Managed: False
+          Chargeable: True
+        - Index: 'MUNTEC'
+          Managed: False
+          Chargeable: True
+        - Index: 'MRS175'
+          Managed: False
+          Chargeable: True
     NWS:
-            Tags:
-            - Managed
-            - Chargeable
-            Indexes: 
-                - Index: 'HHS207-HDCD'
-                  Owning: 'CPHHS' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'cphhs-peptide.unmanaged'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 1024
-                  Fast Disk(GB): 0.00
-                  Capacity: 32.00
-                  VM Cost: $106.88
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'Managed Servers'
-                    - Folder2:
-                - Index: 'HHS207-HLK2'
-                  Owning: 'CPHHS' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'CPHHS-Safefish'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 3072
-                  Fast Disk(GB): 60.00
-                  Capacity: 10.00
-                  VM Cost: $236.90
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:     
-                - Index: 'QUB003'
-                  Owning: 'F&A' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'DPS-Justice'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 3072
-                  Fast Disk(GB): 100.00
-                  Capacity: 100.00
-                  VM Cost: $305.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2: 
-                - Index: 'HHS207-HPH1'
-                  Owning: 'CPHHS' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'hhs01.sig-unmanaged'
-                  Guest OS: 'Ubuntu Linux (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 8192
-                  Fast Disk(GB): 30.00
-                  Capacity: 0.00
-                  VM Cost: $307.90
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'Managed Servers'
-                    - Folder2:             
-                - Index: 'RMS275'
-                  Owning: 'HMSC' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'HMSC-WiQ'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 8192
-                  Fast Disk(GB): 210.00
-                  Capacity: 0.00
-                  VM Cost: $601.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'Managed Servers'
-                    - Folder2:
-                - Index: 'XEC110'
-                  Owning: 'Ecampus' 
-                  Managed: True
-                  Chargeable: True
-                  Billing: Monthly
-                  Name: 'access.ecampus'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 2048 
-                  Fast Disk(GB): 32.00 
-                  Capacity: 30.00
-                  VM Cost: $182.70
-                  Managed Cost: $1092.00
-                  Folders:
-                    - Folder1: 'Managed Servers'
-                    - Folder2: 
-                - Index: 'XEC110'   
-                  Owning: 'Ecampus' 
-                  Managed: True
-                  Chargeable: True
-                  Billing: Monthly
-                  Name: 'http02.ecampus'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 2048 
-                  Fast Disk(GB): 32.00 
-                  Capacity: 0.00
-                  VM Cost: $180.00
-                  Managed Cost: $1092.00
-                  Folders:
-                    - Folder1: 'Managed Servers'
-                    - Folder2:
-                - Index: 'XEC110' 
-                  Owning: 'Ecampus' 
-                  Managed: True
-                  Chargeable: True
-                  Billing: Monthly
-                  Name: 'ecampus.http01'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 2048 
-                  Fast Disk(GB): 532.00 
-                  Capacity: 0.00
-                  VM Cost: $930.00
-                  Managed Cost: $1092.00
-                  Folders:
-                    - Folder1: 'Managed Servers'
-                    - Folder2:
-                - Index: 'XEC110'   
-                  Owning: 'Ecampus' 
-                  Managed: True
-                  Chargeable: True
-                  Billing: Monthly
-                  Name: 'ecampus-vp01'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 1
-                  RAM(MB): 1024 
-                  Fast Disk(GB): 8.00 
-                  Capacity: 0.00
-                  VM Cost: $78.00
-                  Managed Cost: $1092.00
-                  Folders:
-                    - Folder1: 'Managed Servers'
-                    - Folder2:  
-                - Index: 'XEC110'
-                  Owning: 'Ecampus' 
-                  Managed: True
-                  Chargeable: True
-                  Billing: Monthly
-                  Name: 'pne-vet'
-                  Guest OS: 'Ubuntu Linux (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 4096 
-                  Fast Disk(GB): 64.00 
-                  Capacity: 0.00
-                  VM Cost: $284.00
-                  Managed Cost: $1092.00
-                  Folders:
-                    - Folder1: 'Managed Servers'
-                    - Folder2:
-                - Index: 'XEC110'
-                  Owning: 'Pace' 
-                  Managed: True
-                  Chargeable: True
-                  Billing: Monthly
-                  Name: 'pne-db'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 2048 
-                  Fast Disk(GB): 32.00 
-                  Capacity: 0.00
-                  VM Cost: $180.00
-                  Managed Cost: $1092.00
-                  Folders:
-                    - Folder1: 'Managed Servers'
-                    - Folder2:
-                - Index: 'TEE107'
-                  Owning: 'Pace' 
-                  Managed: True
-                  Chargeable: True
-                  Billing: Monthly
-                  Name: 'pne-prod.nws'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 6144 
-                  Fast Disk(GB): 94.00 
-                  Capacity: 0.00
-                  VM Cost: $385.00
-                  Managed Cost: $1092.00
-                  Folders:
-                    - Folder1: 'Managed Servers'
-                    - Folder2: 
-                - Index: 'TEE107'
-                  Owning: 'Pace' 
-                  Managed: True
-                  Chargeable: True
-                  Billing: Monthly
-                  Name: 'pne-stage.nws'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 4096 
-                  Fast Disk(GB): 32.00 
-                  Capacity: 0.00
-                  VM Cost: $236.00
-                  Managed Cost: $1092.00
-                  Folders:
-                    - Folder1: 'Managed Servers'
-                    - Folder2:
-                - Index: 'JIS122-JDAM'  
-                  Owning: 'IS-TAC' 
-                  Managed: True
-                  Chargeable: True
-                  Billing: Monthly
-                  Name: 'tac-access.nws'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 4096 
-                  Fast Disk(GB): 34.00 
-                  Capacity: 0.00
-                  VM Cost: $239.00
-                  Managed Cost: $1092.00
-                  Folders:
-                    - Folder1: 'Managed Servers'
-                    - Folder2:
-                - Index: 'JIS122-JDAM'
-                  Owning: 'IS-TAC' 
-                  Managed: True
-                  Chargeable: True
-                  Billing: Monthly
-                  Name: 'tac-http01.nws'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 40.00 
-                  Capacity: 0.00
-                  VM Cost: $360.00
-                  Managed Cost: $1092.00
-                  Folders:
-                    - Folder1: 'Managed Servers'
-                    - Folder2:
-    SIG:
-            Tags:
-            - Managed
-            - Chargeable
-            Indexes: 
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'avst-web-vp01'
-                  Guest OS: 'Ubuntu Linux (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $278.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'avst-web-vp02'
-                  Guest OS: 'Ubuntu Linux (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $278.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-    Telcom:
-            Tags:
-            - Managed
-            - Chargeable
-            Indexes: 
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'avst-call-kad'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 6144
-                  Fast Disk(GB): 180.00
-                  Capacity: 0.00
-                  VM Cost: $614.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'voicemail'
-                    - Folder2:
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'avst-call-mcc'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 6144
-                  Fast Disk(GB): 180.00
-                  Capacity: 0.00
-                  VM Cost: $614.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'voicemail'
-                    - Folder2:
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'avst-call-mcc'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 6
-                  RAM(MB): 8192
-                  Fast Disk(GB): 300.00
-                  Capacity: 0.00
-                  VM Cost: $926.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'voicemail'
-                    - Folder2:
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'avst-syssrv(HA)'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 6
-                  RAM(MB): 8192
-                  Fast Disk(GB): 300.00
-                  Capacity: 0.00
-                  VM Cost: $926.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'voicemail'
-                    - Folder2:
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'ICS'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 1024
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $156.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'pbx.corv'
-                    - Folder2:
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'OSU_CMS_MCC'
-                  Guest OS: 'Red Hat Enterprise Linux 6 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 8
-                  RAM(MB): 16384
-                  Fast Disk(GB): 600.00
-                  Capacity: 0.00
-                  VM Cost: $1652.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'pbx.corv'
-                    - Folder2:
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'OSU_CMS_MCC'
-                  Guest OS: 'Red Hat Enterprise Linux 6 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 8
-                  RAM(MB): 16384
-                  Fast Disk(GB): 600.00
-                  Capacity: 0.00
-                  VM Cost: $1652.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'pbx.corv'
-                    - Folder2:
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'sesmgr1mcc'
-                  Guest OS: 'Red Hat Enterprise Linux 6 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 3
-                  RAM(MB): 4096
-                  Fast Disk(GB): 90.00
-                  Capacity: 0.00
-                  VM Cost: $361.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'pbx.corv'
-                    - Folder2:
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'sysmgr1mcc-04'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 9216
-                  Fast Disk(GB): 105.00
-                  Capacity: 0.00
-                  VM Cost: $561.50
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'pbx.corv'
-                    - Folder2:
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'sysmgr2kad'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 9216
-                  Fast Disk(GB): 105.00
-                  Capacity: 0.00
-                  VM Cost: $561.50
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'pbx.corv'
-                    - Folder2:
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'sysmgrpdx'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 9216
-                  Fast Disk(GB): 105.00
-                  Capacity: 0.00
-                  VM Cost: $561.50
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'pbx.corv'
-                    - Folder2:
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'TelecomMgmt'
-                  Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 8192
-                  Fast Disk(GB): 120.00
-                  Capacity: 0.00
-                  VM Cost: $504.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'pbx.corv'
-                    - Folder2:
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'Util-Server-MainCampus'
-                  Guest OS: 'CentOS 4/5 or later (32-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 1024
-                  Fast Disk(GB): 20.00
-                  Capacity: 0.00
-                  VM Cost: $96.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'pbx.corv'
-                    - Folder2:
-                - Index: 'JIS113-JTEL'
-                  Owning: 'Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'WEB'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 1024
-                  Fast Disk(GB): 32.00
-                  Capacity: 0.00
-                  VM Cost: $114.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'pbx.corv'
-                    - Folder2:
-    TSS:
+      - Development VMs:
+        - Managed Servers:
+        - StudentDev:
+      - Production VMs:
+        - Exchange:
+          - Archive:
+          - CAS and EWS:
+          - 0365 proxy:
+          - OLD Junk:
+          - Recovery:
+        - Managed Servers:
+        - Index: 'HHS207-HDCD'
+          Managed: False
+          Chargeable: True
+        - Index: 'HHS207-HPH1'
+          Managed: False
+          Chargeable: True
             Tags:
             - Managed
             - Chargeable
             Indexes:
-                - Index: 'J2284B'
-                  Owning: 'CPHHS-BPHS' 
+                - Index: 'HHS207-HDCD'
                   Managed: False
                   Chargeable: True
-                  Billing: Quarterly
-                  Name: 'bphs-pactrac'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 6144
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $320.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2: 
-                - Index: 'JIS111'
-                  Owning: 'ClientSvcs' 
+                - Index: 'HHS207-HLK2'
                   Managed: False
                   Chargeable: True
-                  Billing: Quarterly
-                  Name: 'cn-web'
-                  Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 4096
-                  Fast Disk(GB): 160.00
-                  Capacity: 0.00
-                  VM Cost: $528.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2: 
-                - Index: 'JIS111'
-                  Owning: 'ClientSvcs' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'cnlite3'
-                  Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 3072
-                  Fast Disk(GB): 90.00
-                  Capacity: 0.00
-                  VM Cost: $281.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'F1008A'
-                  Owning: 'CPHHS' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'CPHHS-Byonic'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 16
-                  RAM(MB): 16384
-                  Fast Disk(GB): 60.00
-                  Capacity: 1262.16
-                  VM Cost: $281.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS111'
-                  Owning: 'ClientSvcs' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'iscs-restore'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 3072
-                  Fast Disk(GB): 260.00
-                  Capacity: 0.00
-                  VM Cost: $574.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS113-JDTC'
-                  Owning: 'Labs-Telecom' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'TEL-DVR'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 8192
-                  Fast Disk(GB): 40.00
-                  Capacity: 0.00
-                  VM Cost: $384.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS111-JCCD'
-                  Owning: 'ClientSvcs' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'tss-vd03.tss'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 2084
-                  Fast Disk(GB): 32.00
-                  Capacity: 0.00
-                  VM Cost: $180.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS111-JCCD'
-                  Owning: 'ClientSvcs' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'tss-vd04'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 32.00
-                  Capacity: 0.00
-                  VM Cost: $236.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS111'
-                  Owning: 'ClientSvcs' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'tss.cnbilling'
-                  Guest OS: 'CentOS 7 Linux'
-                  Power State: poweredOn
-                  CPU: 1
-                  RAM(MB): 2048
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $184.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS111'
-                  Owning: 'ClientSvcs' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'TSS0'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 18432
-                  Fast Disk(GB): 200.00
-                  Capacity: 0.00
-                  VM Cost: $980.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'JIS111'
-                  Owning: 'ClientSvcs' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'TSS2'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 25600
-                  Fast Disk(GB): 200.00
-                  Capacity: 0.00
-                  VM Cost: $1176.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:  
-    UHDS:
-            Tags:
-            - Managed
-            - Chargeable
-            Indexes: 
-                - Index: 'QBA037'
-                  Owning: 'BAFF' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'CASH-NVR'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 8192
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $490.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
                 - Index: 'QUB003'
-                  Owning: 'F&A' 
                   Managed: False
                   Chargeable: True
-                  Billing: Quarterly
-                  Name: 'DPS-NVR'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 8192
-                  Fast Disk(GB): 40.00
-                  Capacity: 0.00
-                  VM Cost: $460.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'QTS120'
-                  Owning: 'F&A' 
+                - Index: 'HHS207-HPH1'
                   Managed: False
                   Chargeable: True
-                  Billing: Quarterly
-                  Name: 'DPS-NVR'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 8192
-                  Fast Disk(GB): 40.00
-                  Capacity: 0.00
-                  VM Cost: $460.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'MRS175'
-                  Owning: 'UHDS-MU' 
+                - Index: 'RMS275'
                   Managed: False
                   Chargeable: True
-                  Billing: Quarterly
-                  Name: 'DXRC-NVR1'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 8192
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $490.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'MRS175'
-                  Owning: 'UHDS-MU' 
-                  Managed: False
+                - Index: 'XEC110'
+                  Managed: True
                   Chargeable: True
-                  Billing: Quarterly
-                  Name: 'DXRC-Velocity'
-                  Guest OS: 'Microsoft Windows Server 2016 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 16384
-                  Fast Disk(GB): 500.00
-                  Capacity: 0.00
-                  VM Cost: $1374.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'Production VMs'
-                    - Folder2:
-                - Index: 'MHD279'
-                  Owning: 'UHDS-MU' 
-                  Managed: False
+                - Index: 'XEC110'
+                  Managed: True
                   Chargeable: True
-                  Billing: Quarterly
-                  Name: 'uhds-monitor'
-                  Guest OS: 'Ubuntu Linux (64-bit)'
-                  Power State: poweredOn
-                  CPU: 2
-                  RAM(MB): 4096
-                  Fast Disk(GB): 80.00
-                  Capacity: 0.00
-                  VM Cost: $308.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'MHD279'
-                  Owning: 'UHDS-MU' 
-                  Managed: False
+                - Index: 'XEC110'
+                  Managed: True
                   Chargeable: True
-                  Billing: Quarterly
-                  Name: 'uhds-nvr4'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: poweredOn
-                  CPU: 4
-                  RAM(MB): 8192
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $490.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'MHD279'
-                  Owning: 'UHDS-MU' 
-                  Managed: False
+                - Index: 'XEC110'
+                  Managed: True
                   Chargeable: True
-                  Billing: Quarterly
-                  Name: 'uhds-nvr5'
-                  Guest OS: 'Microsoft Windows Server 2019 (64-bit)'
-                  Power State: 
-                  CPU: 4
-                  RAM(MB): 8192
-                  Fast Disk(GB): 60.00
-                  Capacity: 0.00
-                  VM Cost: $490.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-    USSE:
-            Tags:
-            - Managed
-            - Chargeable
-            Indexes: 
-                - Index: 'ZSS031'
-                  Owning: 'USSE' 
-                  Managed: False
+                - Index: 'XEC110'
+                  Managed: True
                   Chargeable: True
-                  Billing: Quarterly
-                  Name: 'Various'
-                  Guest OS: 
-                  Power State: 
-                  CPU: 
-                  RAM(MB): 
-                  Fast Disk(GB): 
-                  Capacity: 
-                  VM Cost: 
-                  Managed Cost: 
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
+                - Index: 'XEC110'
+                  Managed: True
+                  Chargeable: True
+                - Index: 'TEE107'
+                  Managed: True
+                  Chargeable: True
+                - Index: 'TEE107'
+                  Managed: True
+                  Chargeable: True
+                - Index: 'JIS122-JDAM'
+                  Managed: True
+                  Chargeable: True
+                - Index: 'JIS122-JDAM'
+                  Managed: True
+                  Chargeable: True
+    SIG:
+      - Development VMs:
+        - akeym-testing:
+          - folder:
+        - brocks:
+        - Gaylons-templates:
+        - Joseph-testing-vms:
+          - NetApp-SIM:
+        - jz:
+        - Master Templates:
+        - Splunk:
+          - prod_build:
+        - Test-LBS:
+      - Production VMs:
+        - NetApp:
+        - NetScaler:
+        - OLD netapp or vcenter:
+        - Previous Templates:
+        - SMTP:
+        - SQL Cluster:
+        - vcenter:
+        - Index: 'JIS113-JTEL'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS113-JTEL'
+          Managed: False
+          Chargeable: True
+    Telcom:
+      - Development VMs:
+        - Steve-test:
+      - Production VMs:
+        - DC:
+        - Former iNOC:
+        - pbx.corv:
+          - Index: 'JIS113-JTEL'
+            Managed: False
+            Chargeable: True
+          - Index: 'JIS113-JTEL'
+            Managed: False
+            Chargeable: True
+          - Index: 'JIS113-JTEL'
+            Managed: False
+            Chargeable: True
+          - Index: 'JIS113-JTEL'
+            Managed: False
+            Chargeable: True
+          - Index: 'JIS113-JTEL'
+            Managed: False
+            Chargeable: True
+          - Index: 'JIS113-JTEL'
+            Managed: False
+            Chargeable: True
+          - Index: 'JIS113-JTEL'
+            Managed: False
+            Chargeable: True
+          - Index: 'JIS113-JTEL'
+            Managed: False
+            Chargeable: True
+          - Index: 'JIS113-JTEL'
+            Managed: False
+            Chargeable: True
+          - Index: 'JIS113-JTEL'
+            Managed: False
+            Chargeable: True
+        - Voicemail:
+          - Index: 'JIS113-JTEL'
+            Managed: False
+            Chargeable: True
+          - Index: 'JIS113-JTEL'
+            Managed: False
+            Chargeable: True
+          - Index: 'JIS113-JTEL'
+            Managed: False
+            Chargeable: True
+          - Index: 'JIS113-JTEL'
+            Managed: False
+            Chargeable: True
+    TSS:
+      - Development VMs:
+        - Index: 'JIS111-JCCD'
+          Managed: False
+          Chargeable: True
+      - Production VMs:
+        - Managed Servers:
+        - Index: 'J2284B'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS111'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS111'
+          Managed: False
+          Chargeable: True
+        - Index: 'F1008A'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS111'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS113-JDTC'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS111-JCCD'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS111'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS111'
+          Managed: False
+          Chargeable: True
+        - Index: 'JIS111'
+          Managed: False
+          Chargeable: True
+    UHDS:
+      - Production VMs:
+        - Index: 'QBA037'
+          Managed: False
+          Chargeable: True
+        - Index: 'QUB003'
+          Managed: False
+          Chargeable: True
+        - Index: 'MRS175'
+          Managed: False
+          Chargeable: True
+        - Index: 'MRS175'
+          Managed: False
+          Chargeable: True
+        - Index: 'MHD279'
+          Managed: False
+          Chargeable: True
     VLIB:
-            Tags:
-            - Managed
-            - Chargeable
-            Indexes: 
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'AWS-Storage-Gateway'
-                  Guest OS: 'Other (64-bit)'
-                  Power State: 'poweredOff'
-                  CPU: 4 
-                  RAM(MB): 16384 
-                  Fast Disk(GB): 80.00 
-                  Capacity: 0.00
-                  VM Cost: $720.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-admin1'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 730.00 
-                  Capacity: 0.00
-                  VM Cost: $1395.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-admin2'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 32.00 
-                  Capacity: 0.00
-                  VM Cost: $424.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-arcgis1'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 32768 
-                  Fast Disk(GB): 275.00 
-                  Capacity: 0.00
-                  VM Cost: $1483.50
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-arcgis2'
-                  Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 272.22 
-                  Capacity: 0.00
-                  VM Cost: $809.83
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-arcgis3'
-                  Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 478.11 
-                  Capacity: 0.00
-                  VM Cost: $1117.17
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-arcgis5'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 16384 
-                  Fast Disk(GB): 275.00 
-                  Capacity: 0.00
-                  VM Cost: $960.50
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-archmatica'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 32.00 
-                  Capacity: 0.00
-                  VM Cost: $424.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-bt'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 6144 
-                  Fast Disk(GB): 130.00 
-                  Capacity: 0.00
-                  VM Cost: $439.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-c4l'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 4096 
-                  Fast Disk(GB): 132.00 
-                  Capacity: 0.00
-                  VM Cost: $386.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-christa'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 4096 
-                  Fast Disk(GB): 32.00 
-                  Capacity: 0.00
-                  VM Cost: $236.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 'Development VMs'
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-cups1'
-                  Guest OS: 'Ubuntu Linux (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 1
-                  RAM(MB): 4096 
-                  Fast Disk(GB): 30.00 
-                  Capacity: 0.00
-                  VM Cost: $195.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-dc1'
-                  Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 4096 
-                  Fast Disk(GB): 40.00 
-                  Capacity: 0.00
-                  VM Cost: $272.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-dc2'
-                  Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 1
-                  RAM(MB): 4096 
-                  Fast Disk(GB): 40.00 
-                  Capacity: 0.00
-                  VM Cost: $234.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-gis1'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 20480 
-                  Fast Disk(GB): 232.00 
-                  Capacity: 0.00
-                  VM Cost: $1060.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-gis2'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 20480 
-                  Fast Disk(GB): 232.00 
-                  Capacity: 0.00
-                  VM Cost: $1060.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-gis3'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 20480 
-                  Fast Disk(GB): 232.00 
-                  Capacity: 0.00
-                  VM Cost: $1060.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:    
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-hydra1'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 24576 
-                  Fast Disk(GB): 100.00 
-                  Capacity: 0.00
-                  VM Cost: $974.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-hydro-prod1'
-                  Guest OS: 'Microsoft Windows Server 2008 R2 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 16024 
-                  Fast Disk(GB): 800.03 
-                  Capacity: 0.00
-                  VM Cost: $1738.20
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-illiad'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 240.00 
-                  Capacity: 0.00
-                  VM Cost: $760.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-kube1'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 132.00 
-                  Capacity: 0.00
-                  VM Cost: $574.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-kube2'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 132.00 
-                  Capacity: 0.00
-                  VM Cost: $574.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-kube3'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 132.00 
-                  Capacity: 0.00
-                  VM Cost: $574.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-lockss'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 30.00 
-                  Capacity: 0.00
-                  VM Cost: $421.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-metaarchive'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 30.00 
-                  Capacity: 0.00
-                  VM Cost: $421.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-mongo1'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 130.00 
-                  Capacity: 0.00
-                  VM Cost: $495.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-mssql1'
-                  Guest OS: 'Microsoft Windows Server 2012 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 8
-                  RAM(MB): 24576 
-                  Fast Disk(GB): 1395.00 
-                  Capacity: 0.00
-                  VM Cost: $3092.50
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-mssql1'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 16384 
-                  Fast Disk(GB): 380.00 
-                  Capacity: 0.00
-                  VM Cost: $1170.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-mssql4'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 150.00 
-                  Capacity: 0.00
-                  VM Cost: $601.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-nginx1'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 4096 
-                  Fast Disk(GB): 30.00 
-                  Capacity: 0.00
-                  VM Cost: $233.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-nginx2'
-                  Guest OS: 'CentOS 6 (64 bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 132.00 
-                  Capacity: 0.00
-                  VM Cost: $574.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-nginx3'
-                  Guest OS: 'CentOS 6 (64 bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 132.00 
-                  Capacity: 0.00
-                  VM Cost: $574.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-nginx4'
-                  Guest OS: 'CentOS 6 (64 bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 132.00 
-                  Capacity: 0.00
-                  VM Cost: $574.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-oeapp2'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 1
-                  RAM(MB): 2048 
-                  Fast Disk(GB): 80.00 
-                  Capacity: 0.00
-                  VM Cost: $214.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-oedb1'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 2048 
-                  Fast Disk(GB): 310.00 
-                  Capacity: 0.00
-                  VM Cost: $841.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-oeweb2'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 12288 
-                  Fast Disk(GB): 32.00 
-                  Capacity: 0.00
-                  VM Cost: $536.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-proxy1'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 16384 
-                  Fast Disk(GB): 130.00 
-                  Capacity: 0.00
-                  VM Cost: $795.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-rails-dev1'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 6144 
-                  Fast Disk(GB): 130.00 
-                  Capacity: 0.00
-                  VM Cost: $439.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2: 
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-rails-prod1'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 16384 
-                  Fast Disk(GB): 180.00 
-                  Capacity: 0.00
-                  VM Cost: $870.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-ranch1'
-                  Guest OS: 'CentOS 6 (64 bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 132.00 
-                  Capacity: 0.00
-                  VM Cost: $574.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-ranch2'
-                  Guest OS: 'CentOS 6 (64 bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 132.00 
-                  Capacity: 0.00
-                  VM Cost: $574.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-ranch3'
-                  Guest OS: 'CentOS 6 (64 bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 132.00 
-                  Capacity: 0.00
-                  VM Cost: $574.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:  
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-saapp1'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 24576 
-                  Fast Disk(GB): 132.00 
-                  Capacity: 0.00
-                  VM Cost: $1022.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-sasolr1'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 16384 
-                  Fast Disk(GB): 132.00 
-                  Capacity: 0.00
-                  VM Cost: $798.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-sastage1'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 16384 
-                  Fast Disk(GB): 130.00 
-                  Capacity: 0.00
-                  VM Cost: $795.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:    
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-sg1'
-                  Guest OS: 'Other (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 16384 
-                  Fast Disk(GB): 580.00 
-                  Capacity: 0.00
-                  VM Cost: $1470.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-sils'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 1
-                  RAM(MB): 3072 
-                  Fast Disk(GB): 30.00 
-                  Capacity: 0.00
-                  VM Cost: $167.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'  
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-solr1'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 80.00 
-                  Capacity: 0.00
-                  VM Cost: $496.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-solr2'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 16384 
-                  Fast Disk(GB): 130.00 
-                  Capacity: 0.00
-                  VM Cost: $795.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folded Cost:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-tomcat1'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 30.00 
-                  Capacity: 150.00
-                  VM Cost: $434.50
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2d Cost:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-tomcat2'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 2
-                  RAM(MB): 6144 
-                  Fast Disk(GB): 30.00 
-                  Capacity: 0.00
-                  VM Cost: $289.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-tomcat-dev1'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 8192 
-                  Fast Disk(GB): 132.00 
-                  Capacity: 0.00
-                  VM Cost: $574.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-web1'
-                  Guest OS: 'CentOS 4/5 or later (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 24576 
-                  Fast Disk(GB): 330.00 
-                  Capacity: 0.00
-                  VM Cost: $1319.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-web2'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 12288 
-                  Fast Disk(GB): 582.00 
-                  Capacity: 0.00
-                  VM Cost: $1361.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-web3'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 12288 
-                  Fast Disk(GB): 32.00 
-                  Capacity: 0.00
-                  VM Cost: $536.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-                - Index: 'DLB016'
-                  Owning: 'Library' 
-                  Managed: False
-                  Chargeable: True
-                  Billing: Quarterly
-                  Name: 'lib-web-dev3'
-                  Guest OS: 'Red Hat Enterprise Linux 7 (64-bit)'
-                  Power State: 'poweredOn'
-                  CPU: 4
-                  RAM(MB): 16384 
-                  Fast Disk(GB): 232.00 
-                  Capacity: 0.00
-                  VM Cost: $948.00
-                  Managed Cost: $0.00
-                  Folders:
-                    - Folder1: 
-                    - Folder2:
-             
-
+      - Development VMs:
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+      - Production VMs:
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
+        - Index: 'DLB016'
+          Managed: False
+          Chargeable: True
