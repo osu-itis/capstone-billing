@@ -4,7 +4,7 @@ from pyVmomi import vim
 from pyVim.connect import Disconnect, SmartConnect
 from ssl import _create_unverified_context
 import atexit 
-from settings import server, port, user, password
+from settings import host, port, user, password
 from db import *
 import hashlib
 
@@ -29,7 +29,7 @@ def get_hosts(conn):
     return container.view
 
 def get_info():
-    si = get_service_instance(server, user, password)
+    si = get_service_instance(host, user, password)
     vms = get_hosts(si)
     for vm in vms:
         num_cpu = vm.config.hardware.numCPU
@@ -53,16 +53,7 @@ def get_info():
                     slow += size
         fast, slow = round(fast, 2), round(slow, 2)
 
-        # todo, grab index + managed from tags
-        # perhaps store in extra config?
-        # see: https://github.com/virtdevninja/pyvmomi-community-samples/commit/0dbbb1dd28045e8406c70c9830d08d39b55406a7
-
-        '''
-        # or attributes
-        f = si.content.customFieldsManager.field
-        for k, v in [(x.name, v.value) for x in f for v in vm.customValue if x.key == v.key]:
-           print("Name: %s\nValue: %s" % (k, v))
-        '''
+        # use placeholder index/chargeable flag until tagging is avaliable in production
         idx = 'testidx'
 
         state = f'{vm.name}|{num_cpu}|{memory}|{fast}|{slow}|{power_state}|{guest_os}|{pfolder.name}|{idx}'
@@ -74,6 +65,7 @@ def main():
     init_db()
     for i in get_info():
         t, *i = i
+        print(i)
         t = 'chargeable' if t == 0 else 'managed'
         insert_info(t, *i)
 
