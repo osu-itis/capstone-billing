@@ -1,6 +1,7 @@
 settings.py
 billing-env/
 vminfo.db
+*.xlsx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
