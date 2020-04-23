@@ -4,7 +4,8 @@
 On the development server, a VM called 'Test' has been created to test the tagging feature. Two tags are currently avaliable: chargeable and managed.
 
 #### Usage:
-Usage: `python3 tag_op.py <tag/untag> <tag_name> <vm_name>`
+`python3 tag_op.py <tag/untag> <tag_name> <vm_name>`
+
 Ex: `python3 tag_op.py tag managed Test`
 
 #### Configuration:

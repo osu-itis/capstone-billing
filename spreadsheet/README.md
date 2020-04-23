@@ -8,8 +8,9 @@ testing.) When deployed, scraper.py will be ran in 15 minute increments. generat
 depending on whether it is managed or chargeable.
 
 #### Usage:
-Usage: `python3 scraper.py`
-Usage: `python3 generate.py`
+`python3 scraper.py`
+
+`python3 generate.py`
 
 #### Configuration:
 Please have a file called `settings.py` in this same directory with the following information.
