@@ -1,0 +1,1 @@
+Allow to tag a Virtual machine created in VMWare VCenter. It's using a python script use with pyVmomi since it is not possible to assign a tag to a VM with the ansible module actually. It uses a YAML configuration file to store tagging info. 
