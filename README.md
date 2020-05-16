@@ -25,4 +25,4 @@ $ pip install -r requirements.txt
 # Code Review
 
 - Modified environment setup to include vSphere automation sdk dependency. This should fix the build issue many people were having.
-- Compiled list of review comments: reviews.txt
+- Compiled list of review comments: reviews.md
