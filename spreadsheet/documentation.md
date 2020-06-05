@@ -8,12 +8,19 @@ corvallis_path = content.rootFolder.childEntity[0]
 ```
 
 The script successfully grabs:
+
     - number of cpus
+
     - memory in MB
+
     - power state
+
     - guest name
+
     - department
+
     - fast/slow datastores
+
     - managed/chargeable tags
 
 Since the indexes have not been tagged onto the VMs, the script cannot yet
@@ -61,6 +68,7 @@ for device in vm.config.hardware.device:
 ```
 
 *****db.py:*****
+
 Currently, managed vms and chargeable vms are split up into tables. This may help
 speed up querying for spreadsheet generation scripts. It is possible that this denormalization
 may not be worth it, so these tables can be merged into one if need be.
@@ -91,6 +99,7 @@ state = f'{timer}|{vm.name}|{num_cpu}|{memory}|{fast}|{slow}|{power_state}|{gues
 ```
 
 *****generate.py:*****
+
 There is not much to generate.py at the moment. It is basic tabulation logic dumped into an excel spreadsheet.
 Due to index not being pullable currently, it is not possible to get the spreadsheet into the FUPLOAD format.
 However, finishing this should not take too much time. The generate file shows how to interact with the database.
