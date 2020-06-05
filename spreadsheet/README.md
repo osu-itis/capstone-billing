@@ -20,4 +20,5 @@ host = 'vcenter-vp01.sig.oregonstate.edu'
 user = '<replace with real username>'
 password = '<replace with real password>'
 port = 443
+url = 'https://{}/api'.format(host)
 ```

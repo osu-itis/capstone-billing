@@ -14,6 +14,10 @@ def init_db():
 
     engine = create_engine(db_name)
     metadata = MetaData()
+
+    # splitting up chargeable and managed tables to speed up querying for spreadsheet generation
+    # this denormalization may have negliable performance improvements (untested)
+    # possible to merge these tables into one
     chargeable = Table('chargeable', metadata,
             Column('hashid', TEXT, primary_key=True),
             Column('name', TEXT, nullable=False),
@@ -49,10 +53,12 @@ def insert_info(table, hashid, name, num_cpu, memory, fast, slow, power_state, g
 
     t = metadata.tables[table]
 
+    # update last seen if the vm did not change
     qupdate = (t.update()
         .where(t.c.hashid == hashid)
         .values(end=now))
 
+    # insert new entry if the vm changed (or is new)
     qinsert = t.insert().from_select(
         [
             t.c.hashid, t.c.name, t.c.num_cpu, t.c.memory,
