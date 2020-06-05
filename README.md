@@ -14,8 +14,15 @@ Each portion can be tested individually. Nagivate to the directories for more in
 $ sudo apt-get install python3-venv
 $ python3 -m venv billing-env
 $ source billing-env/bin/activate
+$ pip install --upgrade pip setuptools
+$ pip install --upgrade git+https://github.com/vmware/vsphere-automation-sdk-python.git
 $ pip install -r requirements.txt
 ```
 
 #### Notes:
 **These scripts will only work on the OSU network. If off-campus, please connect to VPN.**
+
+# Code Review
+
+- Modified environment setup to include vSphere automation sdk dependency. This should fix the build issue many people were having.
+- Compiled list of review comments: reviews.md

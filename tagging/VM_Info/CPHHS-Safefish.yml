@@ -1,0 +1,35 @@
+---
+- hosts: localhost
+  gather_facts: false
+  connection: local
+
+  vars:
+    vm_name: "CPHHS-Safefish"
+    vcenter_hostname: "vctr-vd01.sig.oregonstate.edu"
+    vcenter_user: "sig_capstone_pu@onid.oregonstate.edu"
+    vcenter_password: "pu{senior_capstone_75}"
+    vcenter_dc: "dc1"
+    tag_name: "chargeable"
+    tag_op: "tag" #[tag | untag]
+
+  - name: Get facts about tag
+    vmware_tag_facts:
+      hostname: "{{ vcenter_hostname }}"
+      username: "{{ vcenter_user }}"
+      password: "{{ vcenter_password }}"
+      validate_certs: no
+    register: tag
+
+
+
+  - name: Get tag id
+    set_fact:
+      tag_id: "{{ item.value.tag_id }}"
+    when: item.key == tag_name
+    with_dict: "{{ tag.tag_facts }}"
+    register: tag_id
+
+
+
+  - name: Tag vm
+    command: ./tag_operation.py {{ tag_op }} {{ tag_id }} {{ vm_name }}
